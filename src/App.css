@@ -1,0 +1,550 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Yantramanav:wght@400;500;700&display=swap');
+
+
+body{
+  font-family: 'Roboto', sans-serif !important; 
+font-family: 'Yantramanav', sans-serif;
+}
+.spacer{
+  padding: 90px 0 90px 0;
+}
+
+a{
+text-decoration: none !important;
+
+}
+li{
+  list-style: none;
+}
+.justify-between{
+  justify-content: space-between;
+}
+.justify-around{
+  justify-content: space-around;
+}
+.justify-evenly{
+  justify-content: space-evenly;
+}
+.text-center{
+  text-align: center;
+}
+.align-items{
+  align-items: center;
+}
+.primary-menu{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.flex{
+  display: flex;
+}
+
+.btn a{
+  width: 180px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  background-color: #FFB11F !important;
+  color: white;
+  font-weight: bold;
+  padding: 13px 20px;
+  font-size: 16px;
+}
+
+  .btn a:hover{
+  width: 180px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  background-color:black !important;
+  color: white !important;
+  font-weight: bold;
+  padding: 13px 20px;
+  font-size: 16px;
+  transition: scalex(0);
+}
+i{
+  padding-left: 10px;
+}
+.main-menu a{
+position: relative;
+color:whitesmoke;
+
+
+}
+.main-menu a:hover{
+  color: #FFB11F;
+}
+.main-menu :hover a{
+  display: block;
+}
+
+.sub-menu{
+  flex-direction: column !important;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 200px;
+  background-color:#FFB11F;
+}
+.sub-menu a{
+display: none;
+color: white;
+background-color: #FFB11F;
+height: 50px;
+border-bottom: 1px solid white
+
+}
+.sub-menu a:hover {
+  color: #FFB11F;
+  background-color: white;
+}
+.main-menu a{
+  padding: 10px;
+  ;
+}
+
+.main-menu li{
+  padding: 15px;
+  
+}
+.main-menu li i{
+  padding: px;
+
+}
+.sub-menu a{
+  padding-left: 0;
+}
+.banner{
+  background-image: url(image/asset\ 48.jpeg);
+  height: 850px;
+}
+.banner-content{
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  text-align: center;
+  color: white;
+}
+.banner-content h1{
+  font-size: 130px;
+  color: white;
+  font-weight: bolder;
+  line-height: 170px;
+}
+.banner-content div{
+  width: 70%;
+margin: auto;
+  text-align: center;
+  line-height: 28px;
+  font-size: 18px;
+}
+.banner-content a{
+  
+  margin-top: 20px;
+}
+.main-product img{
+  width: 20%;
+  margin: auto;
+}
+.prodct-thumb img:hover{
+  background-color: #FFB11F;
+  z-index: -10;
+}
+.fresh{
+  margin: 0 !important;
+  
+}
+
+
+
+
+
+
+.product-content{
+  text-align: center;
+  
+}
+.product-content{
+margin-bottom: 60px;
+}
+.main-product p{
+  width: 30%;
+  margin: auto;
+}
+.product-box{
+  /* width: 25%; */
+  background-color: #F8FAFE;
+  margin: 10px;
+}
+.img img{
+  width: 100%;
+  height: 130px;
+ margin-top: 20px;
+ object-fit: cover;
+}
+.box{
+  padding: 30px 20px;
+   width: 80%;
+}
+.box h3{
+  font-size: 20px ;
+  font-weight: bold;
+
+}
+
+ 
+
+.box p{
+  width: 80%;
+  font-size: 16px;
+}
+
+.about-inner{
+  margin-bottom: 45px;
+}
+.inner-content p{
+  width: 60%;
+}
+.about-inner .btn{
+  margin: 0 !important;
+  
+}
+.content{
+  background-color:#F4EBD4;
+}
+
+
+
+
+
+/* =================world page */
+.world{
+  background-color: #F4EBD4;
+}
+.world-image img{
+  width: 100%;
+  height: 100%;
+}
+  .read{
+  padding-left: 0 !important;
+}
+
+/* ============================team page */
+.team-content{
+  text-align: center;
+}
+.team-inner{
+  padding: 30px;
+  color: #716c80;
+  margin-bottom: 24px;
+}
+.team-img img{
+  margin-bottom: 20px;
+}
+.team-text{
+  text-align: center;
+}
+.team-link h5{
+  margin-bottom: 0;
+}
+.team-row .col{
+  /* border: 1px solid #716c80; */
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ================================= fruit page*/
+.sec-header-fruit h1{
+  font-size: 48px;
+  line-height: 60px;
+  color: #FFB11F;
+}
+.sec-header-fruit h2{
+  font-size: 48px;
+  line-height: 60px;
+  color: #181818;
+}
+.sec-header-fruit p{
+  width: 80%;
+  color: #716c80;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+
+
+/* ==========================card */
+.sec-h-content{
+  margin-bottom: 60px;
+}
+.card-img-top{
+width: 85px !important;
+height: 75px;
+}
+.coma{
+display: flex;
+justify-content: flex-end;
+
+}
+.card{
+  margin-left: 20px !important;
+}
+.class-padding{
+  padding: 30px !important;
+}
+.h5{
+  margin-bottom: 5px !important;
+  padding-left: 10px;
+}
+.h6{
+  padding-left: 10px;
+  color: #FFB11F;
+}
+svg{
+  color: #FFB11F;
+  margin-left: 5px;
+  font-size: 15px;
+}
+.b-icon{
+  padding: 5px;
+}
+
+/* ===============================blog page */
+.blog{
+  background-color: #F4EBD4;
+}
+.border{
+  border: none;
+}
+.blog-img img{
+  width: 100%;
+}
+.blog-bottom{
+  padding: 30px 20px;
+  background-color: white;
+}
+
+/* ===========================sponcer page */
+
+.sponcer-item img{
+
+margin: auto;
+}
+/* =========================================news page */
+.news-latter{
+  background-color: #FFB11F;
+}
+.news-h2{
+  color: white;
+  font-weight: bolder 1;
+  font-size: 30px;
+}
+.form-end{
+  position: relative;
+}
+.form-btn{
+  position: absolute;
+  /* left: 82%; */
+  right: 8%;
+  width: 10%;
+  margin-top: 7px;
+  border-radius: none !important;
+  
+}
+
+.form input{
+  width: 100%;
+  height: 50px;
+}
+
+
+
+/* =======================================================About page ========================================*/
+.sceen-bg{
+  background-color: #F8FAFE;
+}
+
+
+
+.about-bg{
+  /* background: rgba(0, 0, 0, 0.3)rgba(0, 0, 0, 0.3)url(image/page-header.jpg); */
+background-image:     url(image/page-header.jpg);
+height: 260px;
+padding-top: 110px;
+padding-bottom: 90px;
+}
+.about-content{
+  color: white;
+  text-align: center;
+}
+.sec-con{
+  width: 70%;
+}
+.btn .about{
+  padding: 0 !important;
+}
+
+/* fruit section================================= */
+.fruit-bg{
+  background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.3)),url(image/fruit-bg.jpg);
+ /* background: rgba(0, 0, 0, 0.7); */
+ 
+}
+.fruit-text{
+  color: white;
+  border-width: 1px solid white;
+  
+}
+
+.fruit-text h3{
+  font-size: 36px;
+}
+.fruit-text p{
+  font-size: 16px;
+}
+
+.background{
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* history section===================================== */
+.history-wrapper{
+  background: #fff;
+}
+.history{
+  padding-top: 110px;
+}
+.history-header{
+  margin-bottom: 60px;
+
+}
+.history-left h2{
+  width: 170px !important;
+  
+ 
+}
+.history-right p{
+  font-size: 16px;
+}
+.history-inner{
+  padding: 30px;
+  background: #F8FAFE;
+}
+.history-image img{
+  width: 100%;
+}
+
+/* footer section======================= */
+.footer{
+  padding-top: 110px;
+  padding-bottom: 90px;
+  background-image: url(image/footer-top-bg.png);
+  background-color: #181818;
+  color: white;
+}
+.footer1-p{
+  margin-bottom: 15px;
+}
+.footer1-logo{
+  margin-bottom: 15px;
+}
+.footer2-li{
+  padding: 0;
+}
+.footer2-li div{
+  padding-top: 20px;
+}
+.f-icon{
+  margin-right:10px ;
+}
+.footer3-img img{
+  width: 90px;
+}
+.footer3-con{
+  padding: 0 !important;
+  margin-left: 10px;
+}
+.footer3-con p{
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+
+/* gallary section================================= */
+.gallary-img img {
+  width: 100%;
+}
+
+/* contact page=================================== */
+.content-contect{
+  padding: 30px 25px;
+  margin-bottom: 50px;
+  box-shadow: 2px 2px 0 0 rgba(0, 0, 0, 0.1);
+}
+.contect-icon{
+  /* height: 50px !important; */
+  width: 50px !important;
+  background-color:#1685ef;
+  border-radius: 50%;
+
+}
+.content-li{
+  text-align: center;
+}
+.map{
+  width:600px;
+  height:450px !important;
+  border: none;
+}
+.contect-btn{
+  width: 100%;
+  height: 45px;
+  /* border: none; */
+  background-color: #FFB11F;
+  
+  border: 1px solid silver;
+}
+.contect-btn a{
+  color: white !important;
+  font-weight: bolder;
+}
+.contect-btn:hover{
+  background-color: black;
+}
+.border-redius{
+  border-radius: 0 !important;
+}
+.message{
+  height: 260px;
+  /* border: 1px solid silver !important; */
+  border-radius: 0 !important;
+}
+
+
+/* shop section========================================= */
+
+.td img{
+  width: 85px;
+}
+ .shop-btn{
+  height: 40px;
+  width: 40px;
+  border-radius: 0 !important;
+  border: 1px solid silver;
+  background-color:white;
+}
+.shop-bg{
+  background-color: #FFB11F;
+}
+.card-bottom{
+  margin-bottom: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.card-checkbox{
+  margin-top: 30px;
+  padding: 20px 30px;
+}
