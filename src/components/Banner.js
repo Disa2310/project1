@@ -8,7 +8,7 @@ const Banner=()=>{
           
             <Container>
               <div className='banner-content'>
-                  <h1>AGRICAL FARM</h1>
+                  <h1>AGRICULTURE FARM</h1>
                   <div>Dynamically supply web-enabled portals for 
                     high standards income and 
                     business Completely productivate optimal
