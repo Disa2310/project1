@@ -16,7 +16,7 @@ const Fruit=()=>{
             <div className='right-image-content'>
                 <div className='sec-content'>
                     <div className='sec-header-fruit'>
-                        <h1>Fresh Agricul Fruits</h1>
+                        <h1>Fresh Fruit Agricul </h1>
                         <h2>in Our Store</h2>
                         <p>Conveniently customize proactiv web services globally nterfaces
                              without globally continually aggregate without globally .</p>
